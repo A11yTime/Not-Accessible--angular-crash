@@ -1,0 +1,29 @@
+.navbar {
+    background-color: #0046d5; /* Fidelity's brand color */
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navbar-brand {
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .navbar-menu {
+    display: flex;
+  }
+  
+  .navbar-item {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .navbar-item:hover {
+    color: #d9d9d9; /* Lighter shade on hover */
+  }
+  
